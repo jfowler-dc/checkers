@@ -33,106 +33,7 @@ export default {
   data () {
     return {
       tiles: [
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'red', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'red', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'red', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'red', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'red', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: 'red', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'red', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'red', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'red', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'red', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'red', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'red', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'red', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'red', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'red', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'black', crown: 0},
-        {puckColor: 'gray', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'gray', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'gray', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'gray', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'gray', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'gray', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'gray', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'gray', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'gray', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'gray', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: 'gray', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'gray', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'gray', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'gray', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0},
-        {puckColor: 'gray', puck: true, tileColor: 'black', crown: 0},
-        {puckColor: '', puck: false, tileColor: 'white', crown: 0}
+        
       ],
       selected: '',
       placed: '',
@@ -146,6 +47,40 @@ export default {
     }
   },
   methods: {
+    createTiles() {
+      for (var e = 0; e < 5; e++) {
+        for(var i = 0; i < 10; i++) {
+          if (i % 2 == 0) {
+            this.tiles.push({puckColor: '', puck: false, tileColor: 'white', crown: 0})
+          } else {
+            if (e < 2 || e > 3) {
+              if (e > 3) {
+                this.tiles.push({puckColor: 'gray', puck: true, tileColor: 'black', crown: 0})
+              } else {
+                this.tiles.push({puckColor: 'red', puck: true, tileColor: 'black', crown: 0})
+              }
+            } else {
+              this.tiles.push({puckColor: '', puck: false, tileColor: 'black', crown: 0})
+            }
+          }
+        }
+        for(var i = 0; i < 10; i++) {
+          if (i % 2 == 0) {
+            if (e < 1 || e > 2) {
+              if (e > 2) {
+                this.tiles.push({puckColor: 'gray', puck: true, tileColor: 'black', crown: 0})
+              } else {
+                this.tiles.push({puckColor: 'red', puck: true, tileColor: 'black', crown: 0})
+              }
+            } else {
+              this.tiles.push({puckColor: '', puck: false, tileColor: 'black', crown: 0})
+            }
+          } else {
+            this.tiles.push({puckColor: '', puck: false, tileColor: 'white', crown: 0})
+          }
+        }
+      }
+    },
     select(i) {
       this.selected = i;
       this.currentPuckColor = this.tiles[this.selected].puckColor;
@@ -326,6 +261,9 @@ export default {
         this.currentPuckColor = '';
       }
     }
+  },
+  created() {
+    this.createTiles()
   }
 }
 </script>
